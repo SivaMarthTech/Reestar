@@ -1,6 +1,6 @@
 # Simple Restaurant Webpage
 
-This project is basic HTML and CSS implementation of a restaurant webpage layout. The design includes a navigation menu, a gallery of menu items, and a contact form, all styled with simple yet effective CSS for a clean and responsive layout.
+This project is a basic HTML and CSS implementation of a restaurant webpage layout. The design includes a navigation menu, a gallery of menu items, and a contact form, all styled with simple yet effective CSS for a clean and responsive layout.
 
 ## Features
 
@@ -19,7 +19,7 @@ This project is basic HTML and CSS implementation of a restaurant webpage layout
 
 1. Clone the repository.
    ```bash
-   git clone https://github.com/yourusername/simple-restaurant-webpage.git
+   git clone https://sivamarthtech.github.io/Reestar/
    ```
 2. Open `index.html` in your browser to view the webpage.
 
