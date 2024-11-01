@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reestar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <h1>Reestar</h1>
+            <ul>
+                <li>Home |</li>
+                <li>Receipe|</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--Main-->
+    <h1 class="recipe-title">Receipe</h1>
+    <div class="container">
+     
+        <div class="box">
+            <img src="Image/image1.jpg" alt="image1" class="image_box__one">
+            <h1>Pizza</h1>
+            <p>TPizza is a beloved dish known for its crispy crust and variety of toppings, its favorite around the world. </p>
+            <button class="order-button">Order Now</button>
+        </div>
+
+        <div class="box">
+            <img src="Image/image2.jpg" alt="image2" class="image_box__two">
+            <h1>Sushi</h1>
+            <p>Sushi is a traditional Japanese dish that features vinegared rice paired with fresh fish or vegetables.</p>
+            <button class="order-button">Order Now</button>
+        </div>
+
+        <div class="box">
+            <img src="Image/image3.jpg" alt="image3" class="image_box__three">
+            <h1>Curry</h1>
+            <p>Indian curry is a rich and aromatic dish, renowned for its complex flavors and vibrant colors.</p>
+            <button class="order-button">Order Now</button>
+        </div>
+
+        <div class="box">
+            <img src="Image/image4.jpg" alt="image4" class="image_box__four">
+            <h1>Dim Sum</h1>
+            <p>Dim sum is a popular Cantonese cuisine, offering a variety of small plates and bite-sized dishes. </p>
+            <button class="order-button">Order Now</button>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="contact_form">
+        <center>
+            <h2>Contact Us</h2>
+            <form>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Name:</td>
+                            <td><input type="text" placeholder="Name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Age:</td>
+                            <td><input type="number" placeholder="Age">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email" placeholder="Mail">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center;">
+                                <input type="submit" class="contact_form__submit">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+    </div>
+    </center>
+    </div>
+    </div>
+
+
+    <script>
+        function loadImage() {
+            const img = document.getElementById("foodImage");
+            img.src = "https://source.unsplash.com/220x220/?food&" + new Date().getTime();
+        }
+    </script>
+</body>
+
+</html>
