@@ -1,6 +1,6 @@
 # Simple Restaurant Webpage
 
-This project is a basic HTML and CSS implementation of a restaurant webpage layout. The design includes a navigation menu, a gallery of menu items, and a contact form, all styled with simple yet effective CSS for a clean and responsive layout.
+This project is basic HTML and CSS implementation of a restaurant webpage layout. The design includes a navigation menu, a gallery of menu items, and a contact form, all styled with simple yet effective CSS for a clean and responsive layout.
 
 ## Features
 
