@@ -19,7 +19,7 @@ This project is a basic HTML and CSS implementation of a restaurant webpage layo
 
 1. Clone the repository.
    ```bash
-   git clone https://sivamarthtech.github.io/Reestar/
+    https://sivamarthtech.github.io/Reestar/
    ```
 2. Open `index.html` in your browser to view the webpage.
 
